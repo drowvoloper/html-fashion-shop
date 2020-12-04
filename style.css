@@ -153,7 +153,7 @@ li {
 }
 
 /* ### MAIN CATEGORIAS ### */
-.main {
+.main--index {
   margin-top: 2em;
 }
 
@@ -316,6 +316,101 @@ li {
 .preview__cta:hover {
   opacity: .8;
 }
+
+/* ### MAIN TALLAJE ### */
+.main.main--tallaje {
+  padding-top: 100px;
+}
+
+.main.main--tallaje p {
+  margin: 1em 0;
+  max-width: 500px;
+}
+
+.main.main--tallaje h3 {
+  margin-top: 2.5em;
+}
+
+.main.main--tallaje table {
+  margin-top: 1.5em;
+  padding: .5em;
+  background-color: #ef4c4c;
+}
+
+.main.main--tallaje table th,
+.main.main--tallaje table td {
+  padding: 1em;
+  background-color: #fafafa;
+  text-align: center;
+}
+
+.main.main--tallaje iframe {
+  margin-top: 1.5em;
+  display: block;
+}
+
+/* ### MAIN PRODUCTO ### */
+.main.main--producto {
+  padding-top: 100px;
+}
+
+.main.main--producto img {
+  margin-top: 1em;
+  max-height: 300px;
+}
+
+.main.main--producto .producto {
+  display: flex;
+  margin-top: 1em;
+}
+
+.main.main--producto .producto__descripcion {
+  margin-left: 1em;
+  margin-top: 3em;
+}
+
+.main.main--producto .producto__descripcion p {
+  margin-top: .5em;
+}
+
+.main.main--producto .producto__descripcion .producto__desde {
+  font-size: .8rem;
+}
+
+.main.main--producto .producto__descripcion .producto__rebaja {
+  color: #292929;
+  font-size: .9rem;
+  text-decoration: line-through;
+}
+
+.main.main--producto .producto__descripcion  .producto__precio {
+  text-decoration: normal;
+  color: red;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.main.main--producto .producto__descripcion  .producto__caracteristicas {
+  margin-top: 2em;
+}
+
+.main.main--producto .producto__descripcion li {
+  margin: 1em 0;
+  list-style: square;
+}
+
+.main.main--producto .producto__descripcion ul {
+  padding-left: 1em;
+}
+
+.main.main--producto h3 {
+  text-decoration: underline;
+}
+
+.main.main--producto h4 {
+  margin-top: 2em;
+}
+
 
 /* ### FOOTER ### */
 .footer {
